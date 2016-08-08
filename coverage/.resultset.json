@@ -1,0 +1,396 @@
+{
+  "RSpec": {
+    "coverage": {
+      "/Users/yordanosdirar/code/capstone/picit/app/models/user.rb": [
+        1,
+        null,
+        1,
+        null
+      ],
+      "/Users/yordanosdirar/code/capstone/picit/app/models/application_record.rb": [
+        1,
+        1,
+        null
+      ],
+      "/Users/yordanosdirar/code/capstone/picit/app/channels/application_cable/channel.rb": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "/Users/yordanosdirar/code/capstone/picit/app/channels/application_cable/connection.rb": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "/Users/yordanosdirar/code/capstone/picit/app/controllers/application_controller.rb": [
+        0,
+        0,
+        0
+      ],
+      "/Users/yordanosdirar/code/capstone/picit/app/controllers/closets_controller.rb": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "/Users/yordanosdirar/code/capstone/picit/app/controllers/photos_controller.rb": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "/Users/yordanosdirar/code/capstone/picit/app/controllers/users_controller.rb": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "/Users/yordanosdirar/code/capstone/picit/app/helpers/application_helper.rb": [
+        0,
+        0
+      ],
+      "/Users/yordanosdirar/code/capstone/picit/app/helpers/closets_helper.rb": [
+        0,
+        0
+      ],
+      "/Users/yordanosdirar/code/capstone/picit/app/helpers/photos_helper.rb": [
+        0,
+        0
+      ],
+      "/Users/yordanosdirar/code/capstone/picit/app/helpers/users_helper.rb": [
+        0,
+        0
+      ],
+      "/Users/yordanosdirar/code/capstone/picit/app/jobs/application_job.rb": [
+        0,
+        0
+      ],
+      "/Users/yordanosdirar/code/capstone/picit/app/mailers/application_mailer.rb": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "/Users/yordanosdirar/code/capstone/picit/app/models/category.rb": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "/Users/yordanosdirar/code/capstone/picit/app/models/closet.rb": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "/Users/yordanosdirar/code/capstone/picit/app/models/photo.rb": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "/Users/yordanosdirar/code/capstone/picit/app/models/vote.rb": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "timestamp": 1470599439
+  },
+  "MiniTest": {
+    "coverage": {
+      "/Users/yordanosdirar/code/capstone/picit/app/models/user.rb": [
+        1,
+        null,
+        1,
+        null
+      ],
+      "/Users/yordanosdirar/code/capstone/picit/app/models/application_record.rb": [
+        1,
+        1,
+        null
+      ],
+      "/Users/yordanosdirar/code/capstone/picit/app/channels/application_cable/channel.rb": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "/Users/yordanosdirar/code/capstone/picit/app/channels/application_cable/connection.rb": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "/Users/yordanosdirar/code/capstone/picit/app/controllers/application_controller.rb": [
+        0,
+        0,
+        0
+      ],
+      "/Users/yordanosdirar/code/capstone/picit/app/controllers/closets_controller.rb": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "/Users/yordanosdirar/code/capstone/picit/app/controllers/photos_controller.rb": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "/Users/yordanosdirar/code/capstone/picit/app/controllers/users_controller.rb": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "/Users/yordanosdirar/code/capstone/picit/app/helpers/application_helper.rb": [
+        0,
+        0
+      ],
+      "/Users/yordanosdirar/code/capstone/picit/app/helpers/closets_helper.rb": [
+        0,
+        0
+      ],
+      "/Users/yordanosdirar/code/capstone/picit/app/helpers/photos_helper.rb": [
+        0,
+        0
+      ],
+      "/Users/yordanosdirar/code/capstone/picit/app/helpers/users_helper.rb": [
+        0,
+        0
+      ],
+      "/Users/yordanosdirar/code/capstone/picit/app/jobs/application_job.rb": [
+        0,
+        0
+      ],
+      "/Users/yordanosdirar/code/capstone/picit/app/mailers/application_mailer.rb": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "/Users/yordanosdirar/code/capstone/picit/app/models/category.rb": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "/Users/yordanosdirar/code/capstone/picit/app/models/closet.rb": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "/Users/yordanosdirar/code/capstone/picit/app/models/photo.rb": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "/Users/yordanosdirar/code/capstone/picit/app/models/vote.rb": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "timestamp": 1470601882
+  }
+}
