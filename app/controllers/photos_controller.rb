@@ -3,7 +3,6 @@ class PhotosController < ApplicationController
 
   def index
     requests = Photo.where(closet_id: params[:closet_id])
-    #render as JSON EXCEPT for the created/updated_at. You can also use ONLY instead of except.
     render json: requests.as_json(except: [:request, :created_at, :updated_at])
   end
 
@@ -19,7 +18,6 @@ class PhotosController < ApplicationController
 
   def create
     request = Photo.new
-    binding.pry
     request.closet_id = params[:closet_id]
     request.photo_url = params[:photo_url]
     request.save

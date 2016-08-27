@@ -196,11 +196,123 @@
         1,
         null,
         1,
+        1,
+        null,
+        null,
         null
       ],
       "/Users/yordanosdirar/code/capstone/picit/app/models/application_record.rb": [
         1,
         1,
+        null
+      ],
+      "/Users/yordanosdirar/code/capstone/picit/app/models/photo.rb": [
+        1,
+        1,
+        null,
+        1,
+        null,
+        null,
+        null,
+        null,
+        null,
+        1,
+        null,
+        null,
+        null
+      ],
+      "/Users/yordanosdirar/code/capstone/picit/app/controllers/photos_controller.rb": [
+        1,
+        1,
+        null,
+        1,
+        1,
+        1,
+        null,
+        null,
+        1,
+        0,
+        null,
+        0,
+        0,
+        null,
+        0,
+        null,
+        null,
+        null,
+        1,
+        0,
+        0,
+        0,
+        0,
+        null,
+        0,
+        0,
+        null,
+        0,
+        null,
+        null,
+        null,
+        null
+      ],
+      "/Users/yordanosdirar/code/capstone/picit/app/controllers/application_controller.rb": [
+        1,
+        1,
+        null
+      ],
+      "/Users/yordanosdirar/code/capstone/picit/app/helpers/application_helper.rb": [
+        1,
+        null
+      ],
+      "/Users/yordanosdirar/code/capstone/picit/app/helpers/closets_helper.rb": [
+        1,
+        null
+      ],
+      "/Users/yordanosdirar/code/capstone/picit/app/helpers/photos_helper.rb": [
+        1,
+        null
+      ],
+      "/Users/yordanosdirar/code/capstone/picit/app/helpers/users_helper.rb": [
+        1,
+        null
+      ],
+      "/Users/yordanosdirar/code/capstone/picit/app/controllers/users_controller.rb": [
+        1,
+        1,
+        null,
+        1,
+        4,
+        4,
+        null,
+        null,
+        1,
+        0,
+        0,
+        0,
+        null,
+        0,
+        null,
+        null,
+        null,
+        1,
+        0,
+        0,
+        0,
+        0,
+        null,
+        0,
+        0,
+        null,
+        0,
+        null,
+        null,
+        null,
+        1,
+        null,
+        1,
+        0,
+        null,
+        null,
         null
       ],
       "/Users/yordanosdirar/code/capstone/picit/app/channels/application_cable/channel.rb": [
@@ -211,11 +323,6 @@
       ],
       "/Users/yordanosdirar/code/capstone/picit/app/channels/application_cable/connection.rb": [
         0,
-        0,
-        0,
-        0
-      ],
-      "/Users/yordanosdirar/code/capstone/picit/app/controllers/application_controller.rb": [
         0,
         0,
         0
@@ -285,70 +392,6 @@
         0,
         0,
         0,
-        0,
-        0
-      ],
-      "/Users/yordanosdirar/code/capstone/picit/app/controllers/photos_controller.rb": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0
-      ],
-      "/Users/yordanosdirar/code/capstone/picit/app/controllers/users_controller.rb": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0
-      ],
-      "/Users/yordanosdirar/code/capstone/picit/app/helpers/application_helper.rb": [
-        0,
-        0
-      ],
-      "/Users/yordanosdirar/code/capstone/picit/app/helpers/closets_helper.rb": [
-        0,
-        0
-      ],
-      "/Users/yordanosdirar/code/capstone/picit/app/helpers/photos_helper.rb": [
-        0,
-        0
-      ],
-      "/Users/yordanosdirar/code/capstone/picit/app/helpers/users_helper.rb": [
-        0,
         0
       ],
       "/Users/yordanosdirar/code/capstone/picit/app/jobs/application_job.rb": [
@@ -373,11 +416,6 @@
         0,
         0,
         0,
-        0
-      ],
-      "/Users/yordanosdirar/code/capstone/picit/app/models/photo.rb": [
-        0,
-        0,
         0,
         0,
         0,
@@ -387,10 +425,9 @@
         0,
         0,
         0,
-        0,
         0
       ]
     },
-    "timestamp": 1470601882
+    "timestamp": 1471289741
   }
 }

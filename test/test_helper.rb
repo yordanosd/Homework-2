@@ -11,7 +11,7 @@ require 'minitest/spec'
 # require 'minispec-metadata'
 
 # require 'webmock/minitest'
-require 'minitest/reporters'
+# require 'minitest/reporters'
 
 
 # Minitest::Reporters.use! Minitest::Reporters::SpecReporter.new
@@ -19,7 +19,7 @@ require 'minitest/reporters'
 
 class ActiveSupport::TestCase
   # Setup all fixtures in test/fixtures/*.yml for all tests in alphabetical order.
-  fixtures :all
+  fixtures :users, :photos
 
   # Add more helper methods to be used by all tests here...
 end

@@ -9,5 +9,8 @@ Rails.application.routes.draw do
         end
       end
     end
+
+    get '/users/:id/outfitStories', to: 'users#outfitStories', as: 'outfitStories'
+
   # end
 end

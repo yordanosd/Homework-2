@@ -1,6 +1,4 @@
-class Vote < ApplicationRecordjj
-  belongs_to :photo
+class Vote < ApplicationRecord
 
-  validates :photo_id, presence: true
 
 end
