@@ -12,5 +12,6 @@ Rails.application.routes.draw do
 
     get '/users/:id/outfitStories', to: 'users#outfitStories', as: 'outfitStories'
 
-  # end
+    get '/users/:id/userStories', to: 'users#userStories', as: 'userStories'
+
 end

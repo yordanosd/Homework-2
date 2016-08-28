@@ -36,7 +36,7 @@ class UsersController < ApplicationController
       outfitStoriesResponse = closets.map{|closet|
         user = User.find(closet.user_id).uid
         event = closet.description
-        outfits = Photo.where(closet_id: closet.id)
+        outfits = Photo.where(closet_id: closet.id).select(&:present?)
 
         result = {
           user: user,
@@ -47,6 +47,27 @@ class UsersController < ApplicationController
 
       # photos = Photo.all.group_by &:closet_id
       render json: outfitStoriesResponse.as_json(except: [:request, :created_at, :updated_at])
+    end
+
+
+    def userStories
+      user_closets = Closet.where(user_id: params[:id])
+      user = User.find_by(uid: params[:uid]) || User.find_by(id: params[:id])
+
+      user_closets_response = user_closets.map{|closet|
+        event = closet.description
+        outfits = Photo.where(closet_id: closet.id)
+
+        result = {
+          user: user.id,
+          event: event,
+          outfits: outfits
+        }
+      }.reject(&:empty?)
+
+      render json: user_closets_response.as_json(except: [:request, :created_at, :updated_at])
+
+
     end
 
     private
