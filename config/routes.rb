@@ -14,4 +14,6 @@ Rails.application.routes.draw do
 
     get '/users/:id/userStories', to: 'users#userStories', as: 'userStories'
 
+    patch 'closets/:id/photos/:photo_id/vote', to: 'photos#upvote', as: 'photoUpvote'
+
 end

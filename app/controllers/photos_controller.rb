@@ -1,5 +1,15 @@
 class PhotosController < ApplicationController
-  skip_before_action :verify_authenticity_token, only: [:create, :update]
+  skip_before_action :verify_authenticity_token, only: [:create, :update, :upvote]
+
+  def upvote
+    photo = Photo.find(params[:photo_id])
+    updated_vote_count = photo.votes += 1
+    photo.update(votes: updated_vote_count)
+
+    response = []
+    render json: response.as_json()
+
+  end
 
   def index
     requests = Photo.where(closet_id: params[:closet_id])

@@ -36,11 +36,11 @@ class UsersController < ApplicationController
       outfitStoriesResponse = closets.map{|closet|
         user = User.find(closet.user_id).uid
         event = closet.description
-        outfits = Photo.where(closet_id: closet.id).select(&:present?)
+        outfits = Photo.where(closet_id: closet.id)
 
         result = {
-          user: user,
-          event: event,
+             user: user,
+            event: event,
           outfits: outfits
         }
       }.reject(&:empty?)
@@ -56,7 +56,7 @@ class UsersController < ApplicationController
 
       user_closets_response = user_closets.map{|closet|
         event = closet.description
-        outfits = Photo.where(closet_id: closet.id)
+        outfits = Photo.where(closet_id: closet.id).order(votes: :desc)
 
         result = {
           user: user.id,
