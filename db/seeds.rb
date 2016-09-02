@@ -33,7 +33,7 @@ USERS = [
 ]
 
 CLOSETS = [
-  {user_id: 2, description: "New Purse"},
+  {user_id: 2, description: "everyday sheos"},
   {user_id: 1, description: "Date night"},
   {user_id: 2, description: "Back to school"}, #3
   {user_id: 3, description: "Eritrean dresss"},
@@ -81,9 +81,9 @@ PHOTOS = [
   {votes: 3, closet_id: 5, photo_url: "https://s-media-cache-ak0.pinimg.com/564x/c7/05/08/c70508b89855c1348e669a86ed3e9da7.jpg" },
 
   #shoes
-  {votes: 1, closet_id: 6, photo_url: "https://s-media-cache-ak0.pinimg.com/564x/fb/61/54/fb61549ab1710a3f2ec349951b6add68.jpg" },
-  {votes: 3, closet_id: 6, photo_url: "https://s-media-cache-ak0.pinimg.com/564x/36/62/03/366203a267f6d46ad7622b2c006468f1.jpg" },
-  {votes: 3, closet_id: 6, photo_url: "https://s-media-cache-ak0.pinimg.com/564x/39/43/37/39433702bab090539544899b8665b75f.jpg" },
+  {votes: 1, closet_id: 6, photo_url: "https://s-media-cache-ak0.pinimg.com/564x/44/dc/94/44dc94d36b2eb444b6d4143c6b006588.jpg" },
+  {votes: 3, closet_id: 6, photo_url: "https://s-media-cache-ak0.pinimg.com/564x/32/eb/54/32eb542b98b10bb833fc141353d93e9c.jpg" },
+  {votes: 3, closet_id: 6, photo_url: "https://s-media-cache-ak0.pinimg.com/564x/44/dc/94/44dc94d36b2eb444b6d4143c6b006588.jpg" },
 
   # tattoo
   {votes: 3, closet_id: 7, photo_url: "https://s-media-cache-ak0.pinimg.com/564x/f4/47/89/f447898d2532eeef32b9ddfc9a481a65.jpg" },
