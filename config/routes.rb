@@ -16,4 +16,7 @@ Rails.application.routes.draw do
 
     patch 'closets/:id/photos/:photo_id/vote', to: 'photos#upvote', as: 'photoUpvote'
 
+    post '/users/:id/newStory', to: 'users#newStory', as: 'newStory'
+
+
 end
