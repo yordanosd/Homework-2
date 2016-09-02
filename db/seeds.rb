@@ -33,7 +33,7 @@ USERS = [
 ]
 
 CLOSETS = [
-  {user_id: 2, description: "everyday sheos"},
+  {user_id: 2, description: "everyday shoes"},
   {user_id: 1, description: "Date night"},
   {user_id: 2, description: "Back to school"}, #3
   {user_id: 3, description: "Eritrean dresss"},
